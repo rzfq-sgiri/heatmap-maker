@@ -7,14 +7,14 @@ import pandas as pd
 st.title("Heatmap Generator")
 
 # Input untuk tajuk
-ylabel_title = st.text_input("Masukkan tajuk untuk Y-axis", "Tonggak")
-xlabel_title = st.text_input("Masukkan tajuk untuk X-axis", "Elemen")
+ylabel_title = st.text_input("Y-Axis Category (Index)", "Pillar")
+xlabel_title = st.text_input("X-axis Category (Columns)", "Element")
 
 # Input untuk data
-st.write("Masukkan data anda di bawah:")
-index_data = st.text_area("Masukkan nama untuk Index (contoh: Tonggak)", "Identiti\nPeranti\nRangkaian")
-column_data = st.text_area("Masukkan nama untuk Columns (contoh: Elemen)", "Kawalan Akses\nPengurusan Identiti")
-values_data = st.text_area("Masukkan nilai (contoh: Skor Tahap Kerumitan)", "4.6, 3.4\n4.4, 3.2")
+st.write("Put the label name and their values:")
+index_data = st.text_area("Label for Index (ex: Pillar)", "A\nB\nC")
+column_data = st.text_area("Label for Columns (ex: Element)", "P\nQ\nR\nS\nT)
+values_data = st.text_area("Values (contoh: Skor)", "4.6, 3.4, 2.0, 1.0\n4.4, 3.2, 5.0, 4.1\n1.2,3.1,2.5,4.4")
 
 # Pemprosesan data
 if index_data and column_data and values_data:
