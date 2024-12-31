@@ -14,8 +14,8 @@ xlabel_title = st.text_input("X-axis Category (Columns)", "Element")
 
 # Input untuk data
 st.write("Put the label name and their values:")
-index_data = st.text_area("Label for Index (ex: Pillar)", "A\nB\nC")
-column_data = st.text_area("Label for Columns (ex: Element)", "P\nQ\nR\nS")
+index_data = st.text_area("Label for Index (ex: Pillar)", "Sedan\nSUV\nHatchback")
+column_data = st.text_area("Label for Columns (ex: Element)", "Comfort\nSpeed\nFuel Efficiency")
 values_data = st.text_area("Values (ex: Scores)", "4.6, 3.4, 2.0, 1.0\n4.4, 3.2, 5.0, 4.1\n1.2,3.1,2.5,4.4")
 
 # Pemprosesan data
