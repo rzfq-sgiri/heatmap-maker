@@ -6,6 +6,6 @@ Right click and save as PNG.
 https://heatmap-maker-eqcfae6tuhn6rvij9jzrqq.streamlit.app/
 
 ## How to Use:
-1. 
+
 
 
