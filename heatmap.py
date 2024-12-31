@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Tajuk aplikasi
-#st.title("Heatmap Generator")
+st.title("Heatmap Generator")
 # Set page title and icon
 st.set_page_config(
     page_title="Heatmap Generator",  
