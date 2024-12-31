@@ -6,10 +6,7 @@ import pandas as pd
 # Tajuk aplikasi
 st.title("Heatmap Generator")
 # Set page title and icon
-st.set_page_config(
-    page_title="Heatmap Generator",  
-    page_icon=":)",  
-)
+
 
 # Input untuk tajuk
 ylabel_title = st.text_input("Y-Axis Category (Index)", "Pillar")
