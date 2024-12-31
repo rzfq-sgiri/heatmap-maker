@@ -9,14 +9,21 @@ st.title("Heatmap Generator")
 
 
 # Input untuk tajuk
-ylabel_title = st.text_input("Y-Axis Category (Index)", "Pillar")
-xlabel_title = st.text_input("X-axis Category (Columns)", "Element")
+ylabel_title = st.text_input("Y-Axis Category (Index)", "Vehicle Type")
+xlabel_title = st.text_input("X-axis Category (Columns)", "Features")
 
 # Input untuk data
 st.write("Put the label name and their values:")
-index_data = st.text_area("Label for Index (ex: Pillar)", "Sedan\nSUV\nHatchback")
-column_data = st.text_area("Label for Columns (ex: Element)", "Comfort\nSpeed\nFuel Efficiency")
-values_data = st.text_area("Values (ex: Scores)", "8, 7, 9\n7, 8, 6\n6, 7, 8")
+index_data = st.text_area("Label for Index (ex: Type)", "Sedan\nSUV\nHatchback\nMPV\nSports Car\nTruck\nConvertible")
+column_data = st.text_area("Label for Columns (ex: Features)", "Comfort\nSpeed\nFuel Efficiency\nCargo Space\nPrice\nSafety\nPerformance Consistency")
+values_data = st.text_area("Values (ex: Scores)", 
+                            "8, 7, 9, 6, 5, 9, 8\n"
+                            "7, 8, 6, 8, 7, 8, 7\n"
+                            "6, 7, 8, 5, 4, 7, 6\n"
+                            "8, 6, 7, 9, 6, 8, 7\n"
+                            "9, 9, 5, 4, 10, 9, 9\n"
+                            "6, 5, 7, 10, 4, 6, 6\n"
+                            "8, 8, 6, 4, 8, 8, 9")
 
 # Pemprosesan data
 if index_data and column_data and values_data:
