@@ -1,6 +1,8 @@
 # heatmap-generator
-Heat map graph for educational study. Show heatmap based on your data.
-Right click and save as PNG.
+- Heat map graph for educational study. 
+- Show heatmap based on your data. Just fill in the the text fields and the value needed.
+- If you have 4 rows x 4 columns, then the values must be stored in the same matrix. If not, it will returns error.
+- To save the heatmap chart, just Right click and save as PNG.
 
 ## Demo URL
 [Link heatmap-generator](https://heatmap-maker-eqcfae6tuhn6rvij9jzrqq.streamlit.app/)
